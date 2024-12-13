@@ -17,8 +17,8 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->double('price');
             $table->boolean('iva');
-            $table->boolean('descount');
-            $table->double('descount_percent');
+            $table->boolean('discount');
+            $table->double('discount_percent');
             $table->unsignedInteger('stock');
             $table->timestamps();
         });
